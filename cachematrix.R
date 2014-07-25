@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+## this can create a invertible matrix
+## > c=rbind(c(1, -1/4), c(-1/4, 1))  
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
